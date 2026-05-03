@@ -9,7 +9,7 @@ const router = express.Router();
 // dashboard treats the latest order date as "today", so cards and charts still
 // show useful demo data. For real production use, change this to false and the
 // API will use MySQL CURDATE() as the real current date.
-const USE_LATEST_ORDER_DATE_AS_TODAY = false;
+const USE_LATEST_ORDER_DATE_AS_TODAY = true;
 const GOODS_STATUS_PENDING_AUDIT = '\u5f85\u5ba1\u6838';
 
 function addDays(dateText, days) {
