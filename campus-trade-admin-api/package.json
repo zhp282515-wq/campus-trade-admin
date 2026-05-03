@@ -1,0 +1,15 @@
+{
+  "name": "campus-trade-admin-api",
+  "version": "1.0.0",
+  "description": "Campus Trade Admin backend API",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
